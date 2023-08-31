@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import Homepage from "./components/Homepage";
+import Easy from "./components/Easy";
+import Medium from "./components/Medium";
+import Hard from "./components/Hard";
+import Verse from "./components/Verse";
+import { Routes, Route } from "react-router-dom";
+
+import { data } from "./data";
+
+import "./App.css";
 
 function App() {
+  const [questions, setQuestions] = useState([]);
+
+  useEffect(() => {
+    setQuestions(data[0]);
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/votd" element={<Verse />} />
+        <Route path="/easy" element={<Easy easyQuestions={questions.easy} />} />
+        <Route path="/medium" element={<Medium />} />
+        <Route path="/hard" element={<Hard />} />
+      </Routes>
     </div>
   );
 }

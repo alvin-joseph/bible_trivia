@@ -1,38 +1,66 @@
 .App {
   text-align: center;
+  background-color: #F0F0F0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+  color: #F45050;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* homepage */
+.home {
+  background-color: #3C486B;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  font-size: 1.5rem;
+}
+
+.btn-container button {
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: #3C486B;
+  border-color: #9c9999;
+  color:#F45050;
+}
+
+.votd {
+  color:#F45050;
+}
+
+.votd:hover {
+  color:white;
+}
+
+/*Verse page*/
+.back-btn {
+  margin-top: 40%;
+}
+
+.verse-chapter {
+  font-weight: 600;
+}
+
+.spinner{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding-top: 10%;
 }
 
-.App-link {
-  color: #61dafb;
+/* Easy page */
+.greenButton {
+  background-color: rgb(77, 233, 77) !important;
+  color: white !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.redButton {
+  background-color: red !important;
+  color: white !important;
 }
