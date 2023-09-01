@@ -23,7 +23,10 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/votd" element={<Verse />} />
         <Route path="/easy" element={<Easy easyQuestions={questions.easy} />} />
-        <Route path="/medium" element={<Medium />} />
+        <Route
+          path="/medium"
+          element={<Medium mediumQuestions={questions.medium} />}
+        />
         <Route path="/hard" element={<Hard />} />
       </Routes>
     </div>

@@ -428,7 +428,97 @@ export const data = [
       //   wrongAnswers: ["5", "20", "1"],
       // },
     ],
-    medium: [],
-    hard: [],
+    medium: [
+      {
+        id: 1,
+        question: "What is the first book in the Bible?",
+        answers: [
+          {
+            answer: "Genesis",
+            correct: true,
+          },
+          {
+            answer: "Exodus",
+            correct: false,
+          },
+          {
+            answer: "Revelation",
+            correct: false,
+          },
+          {
+            answer: "Micah",
+            correct: false,
+          },
+        ],
+      },
+      {
+        id: 2,
+        question: "How many days did God take to create the world?",
+        answers: [
+          {
+            answer: "6",
+            correct: true,
+          },
+          {
+            answer: "4",
+            correct: false,
+          },
+          {
+            answer: "7",
+            correct: false,
+          },
+          {
+            answer: "100",
+            correct: false,
+          },
+        ],
+      },
+    ],
+    hard: [
+      {
+        id: 1,
+        question: "What is the first book in the Bible?",
+        answers: [
+          {
+            answer: "Genesis",
+            correct: true,
+          },
+          {
+            answer: "Exodus",
+            correct: false,
+          },
+          {
+            answer: "Revelation",
+            correct: false,
+          },
+          {
+            answer: "Micah",
+            correct: false,
+          },
+        ],
+      },
+      {
+        id: 2,
+        question: "How many days did God take to create the world?",
+        answers: [
+          {
+            answer: "6",
+            correct: true,
+          },
+          {
+            answer: "4",
+            correct: false,
+          },
+          {
+            answer: "7",
+            correct: false,
+          },
+          {
+            answer: "100",
+            correct: false,
+          },
+        ],
+      },
+    ],
   },
 ];
