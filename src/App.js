@@ -27,7 +27,7 @@ function App() {
           path="/medium"
           element={<Medium mediumQuestions={questions.medium} />}
         />
-        <Route path="/hard" element={<Hard />} />
+        <Route path="/hard" element={<Hard hardQuestions={questions.hard} />} />
       </Routes>
     </div>
   );
