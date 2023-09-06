@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Homepage = () => {
   return (
-    <div className="home container-fluid h-75 w-25 p-5">
+    <div className="home container-sm p-5">
       <p className="h1">Bible Trivia Game</p>
       <div className="btn-container p-5">
         <p className="p-5">Choose Difficulty:</p>

@@ -64,3 +64,17 @@
   background-color: red !important;
   color: white !important;
 }
+
+/* Breakpoints */
+
+@media (min-width: 900px) { 
+  .home {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1600px) { 
+  .home {
+    width: 30%;
+  }
+}

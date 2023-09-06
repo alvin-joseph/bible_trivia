@@ -33,7 +33,7 @@ const Easy = ({ easyQuestions }) => {
   }, [easyQuestions]);
 
   return (
-    <div className="home container-fluid h-75 w-25 p-5">
+    <div className="home container-sm p-5">
       {currentQuestion.length === 0 ? (
         <div className="spinner">
           <Puff color="#204963" height="60" width="60" />
@@ -91,6 +91,7 @@ function QuestionOption(props) {
 
   return (
     <button
+      key={props.key}
       className={`${props.defaultClass} ${myColor}`}
       onClick={() => {
         props.parentFunction(props.correctness);
