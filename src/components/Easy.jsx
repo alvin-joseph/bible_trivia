@@ -4,33 +4,24 @@ import { Puff } from "react-loader-spinner";
 
 const Easy = ({ easyQuestions }) => {
   const [currentQuestion, setCurrentQuestion] = useState([]);
+  const [currentAnswers, setCurrentAnswers] = useState([]);
   const [answered, setAnswered] = useState(false);
   let curIndex = 0;
 
-  function randomize(values) {
-    let index = values.length,
-      randomIndex;
-
-    while (index !== 0) {
-      randomIndex = Math.floor(Math.random() * index);
-      index--;
-
-      [values[index], values[randomIndex]] = [
-        values[randomIndex],
-        values[index],
-      ];
-    }
-
-    return values;
-  }
+  const shuffle = (array) => {
+    return array.sort(() => Math.random() - 0.5);
+  };
 
   function selectedAnswer(selected) {
     setAnswered(true);
   }
 
   useEffect(() => {
-    setCurrentQuestion(randomize(easyQuestions));
-  }, [easyQuestions]);
+    setCurrentQuestion(shuffle(easyQuestions));
+    if (currentQuestion.length !== 0) {
+      setCurrentAnswers(shuffle(currentQuestion[curIndex].answers));
+    }
+  }, [easyQuestions, curIndex, currentQuestion]);
 
   return (
     <div className="home container-sm p-5">
@@ -43,7 +34,7 @@ const Easy = ({ easyQuestions }) => {
         <div>
           <p className="h3">{currentQuestion[curIndex].question}</p>
           <div className="btn-container p-5">
-            {currentQuestion[curIndex].answers.map((a) => {
+            {currentAnswers.map((a) => {
               return (
                 <QuestionOption
                   key={a.id}
