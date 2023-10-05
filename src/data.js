@@ -554,20 +554,11 @@ export const data = [
         question: "True or False: David wrote the entire book of Psalms",
         answers: [
           {
-            answer:
-              "False: The Psalms are a collection by many writers, but David contributed the most",
+            answer: "False",
             correct: true,
           },
           {
-            answer: "",
-            correct: false,
-          },
-          {
-            answer: "",
-            correct: false,
-          },
-          {
-            answer: "",
+            answer: "True",
             correct: false,
           },
         ],
@@ -582,15 +573,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "Genesis",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Psalms",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Ruth",
             correct: false,
           },
         ],
@@ -605,15 +596,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "58",
             correct: false,
           },
           {
-            answer: "",
+            answer: "64",
             correct: false,
           },
           {
-            answer: "",
+            answer: "71",
             correct: false,
           },
         ],
@@ -628,15 +619,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "20",
             correct: false,
           },
           {
-            answer: "",
+            answer: "42",
             correct: false,
           },
           {
-            answer: "",
+            answer: "36",
             correct: false,
           },
         ],
@@ -651,15 +642,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "15",
             correct: false,
           },
           {
-            answer: "",
+            answer: "29",
             correct: false,
           },
           {
-            answer: "",
+            answer: "25",
             correct: false,
           },
         ],
@@ -674,15 +665,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "John",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Luke",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Mark",
             correct: false,
           },
         ],
@@ -697,15 +688,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "Shobab",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Shimea",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Nathan",
             correct: false,
           },
         ],
@@ -720,15 +711,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "Italian",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Spanish",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Greek",
             correct: false,
           },
         ],
@@ -743,15 +734,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "Hebrew",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Italian",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Spanish",
             correct: false,
           },
         ],
@@ -762,19 +753,19 @@ export const data = [
         question: "Which human author wrote the most books?",
         answers: [
           {
-            answer: "Paul wrote 13 books",
+            answer: "Paul",
             correct: true,
           },
           {
-            answer: "",
+            answer: "John",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Luke",
             correct: false,
           },
           {
-            answer: "",
+            answer: "David",
             correct: false,
           },
         ],
@@ -785,19 +776,19 @@ export const data = [
         question: "Which human author wrote the most words in the Bible?",
         answers: [
           {
-            answer: "Moses wrote 125,139 words",
+            answer: "Moses",
             correct: true,
           },
           {
-            answer: "",
+            answer: "Ezra",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Luke",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Paul",
             correct: false,
           },
         ],
@@ -812,15 +803,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "Matthew",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Luke",
             correct: false,
           },
           {
-            answer: "",
+            answer: "John",
             correct: false,
           },
         ],
@@ -835,15 +826,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "Luke",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Mark",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Matthew",
             correct: false,
           },
         ],
@@ -858,15 +849,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "Galatians",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Philemon",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Philippians",
             correct: false,
           },
         ],
@@ -881,15 +872,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "Jude",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Hebrews",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Matthew",
             correct: false,
           },
         ],
@@ -900,19 +891,19 @@ export const data = [
         question: "Who were Noah’s three sons?",
         answers: [
           {
-            answer: " Shem, Ham, Japheth",
+            answer: "Shem, Ham, Japheth",
             correct: true,
           },
           {
-            answer: "",
+            answer: "Matthew, Mark, Luke",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Cain, Abel, Adam",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Eliab, Abinadab, Shimea",
             correct: false,
           },
         ],
@@ -927,15 +918,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "5",
             correct: false,
           },
           {
-            answer: "",
+            answer: "7",
             correct: false,
           },
           {
-            answer: "",
+            answer: "10",
             correct: false,
           },
         ],
@@ -943,22 +934,22 @@ export const data = [
 
       {
         id: 18,
-        question: "How did God make people spread out across the earth?",
+        question: "How did God get people to spread out across the earth?",
         answers: [
           {
             answer: "Confused their languages",
             correct: true,
           },
           {
-            answer: "",
+            answer: "Gave them wings",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Gave them a sign",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Brought a flood",
             correct: false,
           },
         ],
@@ -973,15 +964,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "David",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Moses",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Aaron",
             correct: false,
           },
         ],
@@ -996,15 +987,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "Esther",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Ruth",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Edith",
             correct: false,
           },
         ],
@@ -1020,15 +1011,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "Early retirement",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Vacation",
             correct: false,
           },
           {
-            answer: "",
+            answer: "A new home",
             correct: false,
           },
         ],
@@ -1045,15 +1036,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "That he would be rich",
             correct: false,
           },
           {
-            answer: "",
+            answer: "That Abram would live to be 175",
             correct: false,
           },
           {
-            answer: "",
+            answer: "That Abram would have a farm",
             correct: false,
           },
         ],
@@ -1068,15 +1059,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "Sarai",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Ruth",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Esther",
             correct: false,
           },
         ],
@@ -1091,15 +1082,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "For Abram go to the hospital",
             correct: false,
           },
           {
-            answer: "",
+            answer: "For Abram to adopt a local child",
             correct: false,
           },
           {
-            answer: "",
+            answer: "For Abram to wait and see what happens",
             correct: false,
           },
         ],
@@ -1114,15 +1105,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "Isaac",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Zimran",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Ishbak",
             correct: false,
           },
         ],
@@ -1139,15 +1130,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "Haman",
             correct: false,
           },
           {
-            answer: "",
+            answer: "The son of Agag",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Xerxes",
             correct: false,
           },
         ],
@@ -1162,15 +1153,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "1st and 2nd Chronicles",
             correct: false,
           },
           {
-            answer: "",
+            answer: "1st and 2nd Kings",
             correct: false,
           },
           {
-            answer: "",
+            answer: "1st and 2nd Samuel, 1st and 2nd Kings",
             correct: false,
           },
         ],
@@ -1185,15 +1176,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "Esther and Job",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Song of Solomon, Isaiah, Jeremiah",
             correct: false,
           },
           {
-            answer: "",
+            answer: "Obadiah, Johan, Micah",
             correct: false,
           },
         ],
@@ -1208,15 +1199,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "18",
             correct: false,
           },
           {
-            answer: "",
+            answer: "15",
             correct: false,
           },
           {
-            answer: "",
+            answer: "22",
             correct: false,
           },
         ],
@@ -1231,15 +1222,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "15",
             correct: false,
           },
           {
-            answer: "",
+            answer: "18",
             correct: false,
           },
           {
-            answer: "",
+            answer: "21",
             correct: false,
           },
         ],
@@ -1254,15 +1245,15 @@ export const data = [
             correct: true,
           },
           {
-            answer: "",
+            answer: "The Amalekites",
             correct: false,
           },
           {
-            answer: "",
+            answer: "The Egyptians",
             correct: false,
           },
           {
-            answer: "",
+            answer: "The Assyrians",
             correct: false,
           },
         ],
@@ -1273,19 +1264,19 @@ export const data = [
         question: "Who was the last king Daniel served under in the Bible?",
         answers: [
           {
-            answer: " King Nebuchadnezzar’s",
+            answer: "King Nebuchadnezzar",
             correct: true,
           },
           {
-            answer: "",
+            answer: "King Solomon",
             correct: false,
           },
           {
-            answer: "",
+            answer: "King Josiah",
             correct: false,
           },
           {
-            answer: "",
+            answer: "King Ahaz",
             correct: false,
           },
         ],
@@ -1296,19 +1287,19 @@ export const data = [
         question: "What happened to the kingdom after Solomon’s rule?",
         answers: [
           {
-            answer: "Darius",
+            answer: "It was split into the Kingdoms of Judah and Israel",
             correct: true,
           },
           {
-            answer: "",
+            answer: "It was split into the Kingdoms of Persia and Rome",
             correct: false,
           },
           {
-            answer: "",
+            answer: "It was split into the Kingdoms of Greece and Israel",
             correct: false,
           },
           {
-            answer: "",
+            answer: "It was split into the Kingdoms of Persia and Judah",
             correct: false,
           },
         ],
