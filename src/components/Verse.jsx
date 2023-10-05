@@ -23,7 +23,7 @@ const Verse = () => {
   }, []);
 
   return (
-    <div className="home container-sm h-75 p-5">
+    <div className="home container-sm p-5">
       {verse.length !== 0 ? (
         <div>
           <p className="h1">Verse of the Day</p>

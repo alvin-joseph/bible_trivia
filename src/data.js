@@ -551,44 +551,578 @@ export const data = [
     medium: [
       {
         id: 1,
-        question: "What is the first book in the Bible?",
+        question: "True or False: David wrote the entire book of Psalms",
         answers: [
           {
-            answer: "Genesis",
+            answer:
+              "False: The Psalms are a collection by many writers, but David contributed the most",
             correct: true,
           },
           {
-            answer: "Exodus",
+            answer: "",
             correct: false,
           },
           {
-            answer: "Revelation",
+            answer: "",
             correct: false,
           },
           {
-            answer: "Micah",
+            answer: "",
             correct: false,
           },
         ],
       },
+
       {
         id: 2,
-        question: "How many days did God take to create the world?",
+        question: "What is the shortest book in the Bible?",
         answers: [
           {
-            answer: "6",
+            answer: "3 John",
             correct: true,
           },
           {
-            answer: "4",
+            answer: "",
             correct: false,
           },
           {
-            answer: "7",
+            answer: "",
             correct: false,
           },
           {
-            answer: "100",
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 3,
+        question: "How many books are in the Bible?",
+        answers: [
+          {
+            answer: "66",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 4,
+        question: "How many books in the Old Testament?",
+        answers: [
+          {
+            answer: "39",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 5,
+        question: "How many books in the New Testament?",
+        answers: [
+          {
+            answer: "27",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 6,
+        question: "Which New Testament book has Jesus' Sermon on the Mount?",
+        answers: [
+          {
+            answer: "Matthew",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 7,
+        question: "Who was David’s son that became king?",
+        answers: [
+          {
+            answer: "Solomon",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 8,
+        question: "In what language was most of the Old Testament given?",
+        answers: [
+          {
+            answer: "Hebrew",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 9,
+        question: "In what language was most of the New Testament given?",
+        answers: [
+          {
+            answer: "Greek",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 10,
+        question: "Which human author wrote the most books?",
+        answers: [
+          {
+            answer: "Paul wrote 13 books",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 11,
+        question: "Which human author wrote the most words in the Bible?",
+        answers: [
+          {
+            answer: "Moses wrote 125,139 words",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 12,
+        question: "What was most likely the first Gospel written?",
+        answers: [
+          {
+            answer: "Mark",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 13,
+        question: "What was most likely the last Gospel written?",
+        answers: [
+          {
+            answer: "John",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 14,
+        question: "What was most likely the first of Paul's letters written?",
+        answers: [
+          {
+            answer: "1 Thessalonians",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 15,
+        question: "What was most likely the last New Testament book written?",
+        answers: [
+          {
+            answer: "Revelation",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 16,
+        question: "Who were Noah’s three sons?",
+        answers: [
+          {
+            answer: " Shem, Ham, Japheth",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 17,
+        question: "How many people were saved on the ark?",
+        answers: [
+          {
+            answer: "8",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 18,
+        question: "How did God make people spread out across the earth?",
+        answers: [
+          {
+            answer: "Confused their languages",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 19,
+        question: "Who did God call out of Ur to move to Canaan?",
+        answers: [
+          {
+            answer: "Abram",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 20,
+        question: "Who was Abram’s wife?",
+        answers: [
+          {
+            answer: "Sarai",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 21,
+        question:
+          "Even though Abram and Sarah were too old, what did God promise them?",
+        answers: [
+          {
+            answer: "A son",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 22,
+        question:
+          "When God showed Abram the stars in the sky, what did he promise?",
+        answers: [
+          {
+            answer:
+              "That Abram would have more descendants than the number of stars",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 23,
+        question: "Who was Abram’s handmaid?",
+        answers: [
+          {
+            answer: "Hagar",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 24,
+        question: "What was Sarai’s idea for Abram to have a child?",
+        answers: [
+          {
+            answer: "For Abram to have a child with Hagar",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 25,
+        question: "Who was the first son Abram had?",
+        answers: [
+          {
+            answer: "Ishmael",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
             correct: false,
           },
         ],
@@ -597,44 +1131,633 @@ export const data = [
     hard: [
       {
         id: 1,
-        question: "What is the first book in the Bible?",
+        question:
+          "When Saul conquered the Amalekites, what person did he keep as a prisoner instead of killing like God said to?",
         answers: [
           {
-            answer: "Genesis",
+            answer: "The king, Agag",
             correct: true,
           },
           {
-            answer: "Exodus",
+            answer: "",
             correct: false,
           },
           {
-            answer: "Revelation",
+            answer: "",
             correct: false,
           },
           {
-            answer: "Micah",
+            answer: "",
             correct: false,
           },
         ],
       },
+
       {
         id: 2,
-        question: "How many days did God take to create the world?",
+        question: "Which books of the Bible record all the kings?",
         answers: [
           {
-            answer: "6",
+            answer: "1st and 2nd Kings, 1st and 2nd Chronicles",
             correct: true,
           },
           {
-            answer: "4",
+            answer: "",
             correct: false,
           },
           {
-            answer: "7",
+            answer: "",
             correct: false,
           },
           {
-            answer: "100",
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 3,
+        question: "Which books of the Bible did Solomon write?",
+        answers: [
+          {
+            answer: "Song of Solomon and Proverbs and some Psalms",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 4,
+        question: "How many kings of Judah were there?",
+        answers: [
+          {
+            answer: "20",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 5,
+        question: "How many kings of Israel were there?",
+        answers: [
+          {
+            answer: "19",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 6,
+        question: "Who conquered Judah and took Daniel to their country?",
+        answers: [
+          {
+            answer: "The Babylonians",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 7,
+        question: "Who was the last king Daniel served under in the Bible?",
+        answers: [
+          {
+            answer: " King Nebuchadnezzar’s",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 8,
+        question: "What happened to the kingdom after Solomon’s rule?",
+        answers: [
+          {
+            answer: "Darius",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 9,
+        question: "What were Daniel’s three friends (Babylonian names)?",
+        answers: [
+          {
+            answer: "Shadrach, Meshach, Abednego",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 10,
+        question:
+          "When they refused to bow to an idol, where were they thrown?",
+        answers: [
+          {
+            answer: "Into a fiery furnace",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 11,
+        question: "Who returned to Israel to build up the walls of Jerusalem?",
+        answers: [
+          {
+            answer: "Nehemiah",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 12,
+        question:
+          "What Israelite saved her people from being murdered and was a wife of the king?",
+        answers: [
+          {
+            answer: "Esther",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 13,
+        question: "How did Esther get to talk to the king?",
+        answers: [
+          {
+            answer: "Went in to talk without being summoned first",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 14,
+        question: "Who let the Israelites return to their homeland?",
+        answers: [
+          {
+            answer: "Cyrus",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 15,
+        question:
+          "True or False: John the Baptist wore clothes made of goat hair",
+        answers: [
+          {
+            answer: "False It was camel hair",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 16,
+        question:
+          "True or False: At first, Jesus' family tried to stop his ministry and said he was crazy",
+        answers: [
+          {
+            answer: "True",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 17,
+        question:
+          "True or False: Jesus said his true family was anyone who obeys God",
+        answers: [
+          {
+            answer: "True",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 18,
+        question:
+          "Which member of the Jewish ruling council came to ask Jesus questions at night?",
+        answers: [
+          {
+            answer: "Nicodemus",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 19,
+        question: "What was Matthew before he followed Jesus?",
+        answers: [
+          {
+            answer: "A tax collector",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 20,
+        question:
+          "True or False: Jesus would sometimes “spit” as part of his healing miracles",
+        answers: [
+          {
+            answer: "True The Bible describes him spitting three times",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 2,
+        question: "How many days was Lazarus dead before Jesus came to visit?",
+        answers: [
+          {
+            answer: "Four days",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 22,
+        question:
+          "Who helped pay the bills for Jesus and the disciples ministry?",
+        answers: [
+          {
+            answer: "Several women who Jesus had healed",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 23,
+        question:
+          "Name the demon Jesus cast out in the region of the Gerasenes?",
+        answers: [
+          {
+            answer: "Legion",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 24,
+        question:
+          "True or False: While on Earth, Jesus had the power to raise dead people back to life?",
+        answers: [
+          {
+            answer: "True",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 25,
+        question:
+          "What was Peter and Andrew doing when Jesus called them to follow him?",
+        answers: [
+          {
+            answer: "Fishing",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 26,
+        question:
+          "Name the two Old Testament people who appeared when Jesus was transfigured?",
+        answers: [
+          {
+            answer: "Elijah and Moses",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+        ],
+      },
+
+      {
+        id: 27,
+        question: "What problem did Bartimaeus have that Jesus fixed?",
+        answers: [
+          {
+            answer: "He was blind.",
+            correct: true,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
+            correct: false,
+          },
+          {
+            answer: "",
             correct: false,
           },
         ],
